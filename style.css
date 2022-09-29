@@ -1,7 +1,53 @@
+
+body {
+  background: url("images-back/mozaique.jpeg") fixed no-repeat top center;
+  /* background-repeat: no-repeat; */
+}
+
 .profession {
 color: #03224C;
 }
 
 em {
   color: #03224C;
+}
+
+p {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.6em ;
+}
+
+.profession {
+  background: white;
+  font-size: 2.7em;
+  text-align: center;
+}
+
+.description {
+background: darkturquoise;
+width: 60%;
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+padding-left: 150px;
+padding-right: 150px;
+opacity: 0.8;
+
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+li {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+}
+
+.flottant {
+float: none;
 }
