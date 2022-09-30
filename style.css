@@ -1,11 +1,14 @@
 
-body {
+body, a{
   background: url("images-back/mozaique.jpeg") fixed no-repeat top center;
+  text-decoration: none;
+  background-color: rgb(241, 238, 238);
   /* background-repeat: no-repeat; */
 }
 
+
 .profession {
-color: #03224C;
+  color: #03224C;
 }
 
 em {
@@ -22,32 +25,69 @@ p {
   background: white;
   font-size: 2.7em;
   text-align: center;
+  margin-left: 570px;
+  margin-right: 570px;
 }
 
 .description {
-background: darkturquoise;
-width: 60%;
-text-align: center;
-padding-top: 50px;
-padding-bottom: 50px;
-padding-left: 150px;
-padding-right: 150px;
-opacity: 0.8;
-
+  background: rgba(89, 237, 240, 0.582);
+  width: 60%;
+  text-align: center;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-left: 100px;
+  padding-right: 100px;
+  opacity: 0.8;
+  border-radius: 5px;
+  border: 3px cornflowerblue inset;
 }
 
 h1, h2, h3 {
   text-align: center;
 }
 
-li {
+ul {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  list-style: none;
   text-align: center;
+  margin: 0;
+  justify-content: center;
 }
 
-ul {
-  text-align: center;
+h1 {
+font-size: 2.5em;
 }
 
 .flottant {
-float: none;
+  float: none;
+  box-shadow: 4px 4px 6px black;
 }
+
+mark {
+  /* background-color: rgba(6, 141, 134, 0.603); */
+  background-color: #00A1A6;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+a:hover {
+color: rgb(171, 144, 149);
+font-weight: bold;
+text-decoration: underline;
+}
+
+figure {
+text-align: center;
+}
+
+.telechargement {
+color: rgb(45, 179, 179);
+}
+/* .contact {
+  background-image: url("images-back/blue.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+} */
