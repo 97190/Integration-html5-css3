@@ -1,5 +1,5 @@
 
-body, a{
+body {
   background: url("images-back/mozaique.jpeg") fixed no-repeat top center;
   text-decoration: none;
   background-color: rgb(241, 238, 238);
@@ -103,3 +103,33 @@ color: black;
   background-repeat: no-repeat;
   background-position: center;
 } */
+
+/*************************page disponibilités/***********************/
+
+.rdv {
+background-color: rgba(0, 139, 139, 0.548);
+width: 755px;
+margin: auto;
+}
+
+#conteneur {
+display: flex;
+flex-direction: column-reverse;
+align-items: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 1em;
+}
+
+.citation {
+margin: auto;
+display: flex;
+font-style: italic;
+font-weight: bold;
+font-size: 1.5em;
+}
+
+#history {
+padding-top: 250px;
+width: 400px;
+margin: auto;
+}
