@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 /*************************Police de la description**********************************/
 @font-face {
   font-family: 'dancing_script_otregular';
@@ -9,84 +10,100 @@
     url('font/dancingscript-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
 
+body {
+  font-weight: 400px;
 }
 
 .brand {
-  margin: 0 auto;
-  max-width: 700px;
-  margin-top: 50px;
-  width: 300%;
-  display: column;
-  justify-content: center;
-  position: relative;
-  /* background-color: #ca9b52; */
-  align-content: center;
-  align-items: center;
-  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /***********************Centrage de la description*********************/
 .description {
-  position: absolute;
-  display: flex;
-  margin: 15px;
-  margin-bottom: 15px;
-  padding: 50px;
-  width: 100%;
   font-family: 'dancing_script_otregular';
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 18px;
-  /* background-color: aqua; */
-  display: inline-block;
-  margin-top: 15px;
-  margin-bottom: 0;
-  line-height: 1.1;
 }
 
 /********************Menu de navigation************************/
 
-.navigate {
-  display: flex;
-  justify-content: space-around;
-
-}
 .navigation {
+  position: relative;
   display: flex;
-  padding-left: 30px;
-  margin-top: 125px;
+  margin-bottom: 40px;
+  margin-top: 40px;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: bisque;
+  box-shadow: 4px 0px 4px 4px rgba(163, 158, 158, 0.082);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250%;
+  text-align: center;
+  height: auto;
 }
 
 nav a {
   text-decoration: none;
+  color: black;
+  font-size: 15px;
 }
 
-/************************Lien sociaux*****************************/
-#top-socials {
-  display: flex;
-  width: 100px;
-  justify-content: space-around;
+nav li {
+  margin-right: 15px;
+  justify-content: center;
+}
+
+.fa-solid:hover {
+  color: #ca9b52;
+}
+
+/************************Liens sociaux*****************************/
+.top-socials:hover {
+  color: #ca9b52;
+}
+
+.top-socials {
+  display: block;
   float: right;
-  margin-top: 30px;
+  text-align: right;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding-right: 550px;
-  /* background-color: aquamarine; */
+  line-height: 50px;
+
 }
 
 /*******************Survol des liens réseaux sociaux****************/
 a:hover {
-  background-color: #ca9b52;
+  color: #ca9b52;
 }
 
 .container {
   margin: auto;
-  max-width: 100px;
+  width: 100%;
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
+}
+/**********************Article************************/
+
+article {
+display: raw;
+}
+
+aside {
+display: flex;
 }
