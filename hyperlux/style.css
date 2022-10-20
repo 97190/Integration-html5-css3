@@ -3,6 +3,8 @@
   padding: 0;
 }
 
+
+
 /*************************Police de la description**********************************/
 @font-face {
   font-family: 'dancing_script_otregular';
@@ -47,10 +49,11 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 250%;
+  /* align-items: center; */
+  width: 157%;
   text-align: center;
   height: auto;
+  padding-left: 15%;
 }
 
 nav a {
@@ -60,8 +63,8 @@ nav a {
 }
 
 nav li {
-  margin-right: 15px;
-  justify-content: center;
+  margin-right: 50px;
+  justify-content: left;
 }
 
 .fa-solid:hover {
@@ -98,12 +101,35 @@ a:hover {
   text-align: center;
   align-items: center;
 }
-/**********************Article************************/
+/**********************Section************************/
 
-article {
-display: raw;
+section {
+  position: absolute;
+  width: 185%;
+  padding-left: 25%;
+/* margin: auto; */
+float: center;
 }
 
+
+/**********************snap droite************************/
 aside {
-display: flex;
-}
+  display: block;
+  width: 20%;
+  position: relative;
+  margin-left: 62%;
+  margin-right: 30%;
+  text-align: center;
+  height: 1869.86px;
+  margin-top: 10px;
+  border: solid ;
+    }
+
+    /***************lien design*************************/
+
+    .lien-design {
+      margin-top: 15px;
+      width: 100%;
+      margin-left: 150px;
+      font-family: 'Open Sans', sans-serif;
+    }
