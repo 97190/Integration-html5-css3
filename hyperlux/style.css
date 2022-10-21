@@ -181,3 +181,31 @@ padding-left: 30px;
 font-weight: 300;
 margin-top: -2px;
 }
+
+/**********************Liens des commentaires******************/
+.commentaires {
+width: 80%;
+margin-left: 7%;
+margin-top: 10px;
+margin-bottom: 50px;
+font-family: PlayfairDisplay;
+color: #a1a1a1;
+font-style: italic;
+font-size: 15px;
+}
+
+article {
+  display: flex;
+  width: 100%;
+  width: 19%
+}
+
+p {
+font-size: 15px;
+text-align: justify;
+}
+
+.fa-sharp {
+font-size: 90px
+
+}
