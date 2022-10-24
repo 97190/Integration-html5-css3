@@ -134,6 +134,7 @@ section {
 
 /**********************snap droite************************/
 aside {
+  position: fixed;
   display: block;
   width: 20%;
   position: relative;
