@@ -187,7 +187,7 @@ margin-top: -2px;
 /**********************Liens des commentaires******************/
 .commentaires {
 width: 80%;
-margin-left: 7%;
+margin-left: 14%;
 margin-top: 10px;
 margin-bottom: 50px;
 font-family: PlayfairDisplay;
@@ -219,6 +219,7 @@ color: #ca9b52;font-style: normal;
 color: #464646;;
 margin-top: 13px;
 margin-bottom: 13px;
+
 }
 
 .l {
@@ -243,4 +244,8 @@ color: #464646;
 
 p {
   color:#464646;
+}
+
+figcaption {
+margin-left: 4%;
 }
