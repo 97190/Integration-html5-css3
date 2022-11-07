@@ -47,10 +47,11 @@
 
   <div class="navigation">
     <nav>
-      <ul>
+      <ul id="menu">
         <li><i class="fa-solid fa-bars"></i></li>
         <li><a href="#">ACCUEIL </a></li>
-        <li><a href="#">BUSINESS</a> <i class="fa-solid fa-arrow-down"></i></li>
+        <li id="menu_button" onmouseenter="showMenu()" onmouseleave="hideMenu()"><a href="#">BUSINESS</a> <i class="fa-solid fa-arrow-down"></i><ul id="drop-down">
+        </ul></li>
         <li><a href="#">DESIGN</a> <i class="fa-solid fa-arrow-down"></i></li>
         <li><a href="#">GASTRONOMIE</a> <i class="fa-solid fa-arrow-down"></i></li>
         <li><a href="#">MASCULIN</a> <i class="fa-solid fa-arrow-down"></i></li>
