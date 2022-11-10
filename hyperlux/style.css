@@ -275,5 +275,57 @@ figcaption {
   object-fit: cover;
 }
 
-/***********************Test menu déroulant*******************************/
+/***********************Ligne de séparation*******************************/
+hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 
+/************************Formulaire***********************************/
+
+#replay {
+font-family: PlayfairDisplay;
+font-size: 15px;
+letter-spacing: 1.5px;
+margin-top: 25px;
+margin-left: 250px;
+margin-bottom: 44px;
+line-height: 24px;
+color: #030303a2;
+}
+
+.comment-notes {
+color: #464646;
+font-size: 16px;
+margin-bottom: 15px;
+}
+
+label {
+font-family: "Open Sans", sans-serif ;
+font-size: 15px;
+color: #464646;
+line-height: 25px;
+margin-bottom: 3px;
+padding-left: 12px;
+}
+
+.input {
+margin-left: 11px;
+border: 1px  solid;
+border-color: #e8e8e8;
+margin-bottom: 10px;
+}
+
+.input1 {
+  margin-left: 11px;
+  border: 1px solid;
+  border-color: #e8e8e8;
+  margin-bottom: 10px;
+}
+
+.input2 {
+  margin-left: 11px;
+  border: 1px solid;
+  border-color: #e8e8e8;
+  margin-bottom: 10px;
+}
